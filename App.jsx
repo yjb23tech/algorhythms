@@ -4,7 +4,12 @@ import NavigationBar from "./components/NavigationBar"
 const App = () => {
     return (
         <div>
-            <h1>Sanity Check.</h1>
+            <NavigationBar 
+                website_title = "AlgoRhythms"
+                name_page_one = "Dashboard"
+                name_page_two = "Explorer"
+                name_page_three = "Account"
+            />
         </div>
     )
 }
