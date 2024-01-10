@@ -76,3 +76,34 @@ a:visited {
     width: 18px;
     height: 18px;
 }
+
+.algorhythms-row-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.algorhythms-row-blank {
+    height: 36px;
+}
+
+.algorhythms-row-like-comment-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.algorhythms-row-like-comment-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.algorhythms-row-like-comment-icons > img {
+    width: 18px;
+    height: 18px;
+}
+

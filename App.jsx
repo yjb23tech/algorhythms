@@ -15,6 +15,7 @@ const App = () => {
             </BrowserRouter> */}
             <Card 
                 algorhythms_song_title = "Flashing Lights"
+                
             />
         </div>
     )
