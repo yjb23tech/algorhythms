@@ -14,10 +14,9 @@ const Card = (props) => {
                 </div>
             </div>
             <div className="algorhythms-row-description">
-
+                <p>{props.algorhythms_song_description}</p>
             </div>
             <div className="algorhythms-row-blank">
-
             </div>
             <div className="algorhythms-row-like-comment-text">
                 <p>{props.algorhythms_num_of_likes}</p>
