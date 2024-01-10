@@ -1,4 +1,5 @@
 import { createRoot } from "react-dom/client"
+import NavigationBar from "./components/NavigationBar"
 
 const App = () => {
     return (
