@@ -1,4 +1,5 @@
 import NavigationBar from "../components/NavigationBar";
+import Card from "../components/Card.jsx"
 
 const Dashboard = (props) => {
     return (
