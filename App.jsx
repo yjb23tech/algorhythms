@@ -1,15 +1,10 @@
 import { createRoot } from "react-dom/client"
-import NavigationBar from "./components/NavigationBar"
+import Dashboard from "./pages/Dashboard.jsx"
 
 const App = () => {
     return (
         <div>
-            <NavigationBar 
-                website_title = "AlgoRhythms"
-                name_page_one = "Dashboard"
-                name_page_two = "Explorer"
-                name_page_three = "Account"
-            />
+            <Dashboard />
         </div>
     )
 }
