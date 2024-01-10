@@ -7,18 +7,12 @@ import Card from "./components/Card.jsx"
 const App = () => {
     return (
         <div>
-            {/* <BrowserRouter>
+            <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Dashboard />} />
                     <Route path="/explorer" element={<Explorer />} />
                 </Routes>
-            </BrowserRouter> */}
-            <Card 
-                algorhythms_song_title = "Flashing Lights"
-                algorhythms_song_description = "MBDTF"
-                algorhythms_num_of_likes = "1 like"
-                algorhythms_num_of_comments = "1 comment"
-            />
+            </BrowserRouter>
         </div>
     )
 }
