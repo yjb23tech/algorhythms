@@ -1,10 +1,17 @@
 import { createRoot } from "react-dom/client"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Dashboard from "./pages/Dashboard.jsx"
+import Explorer from "./pages/Explorer.jsx"
 
 const App = () => {
     return (
         <div>
-            <Dashboard />
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Dashboard />} />
+                    <Route path="/explorer" element={<Explorer />} />
+                </Routes>
+            </BrowserRouter>
         </div>
     )
 }
