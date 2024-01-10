@@ -11,7 +11,7 @@ body {
     background-color: whitesmoke;
     margin: 0px;
     padding: 5px 20px 5px 20px;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.125);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.03125);
 }
 
 .nav-bar-page-options {
@@ -20,11 +20,12 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    color: rgba(40, 40, 43, 0.75);
 }
 
 .nav-bar-fonts {
     font-family: sans-serif;
-    color: #28282B;
+    color: rgba(40, 40, 43, 0.95);
 }
 
 /* .util-box-border {
